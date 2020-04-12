@@ -1,0 +1,15 @@
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\bin\Debug\EsqLabsSln.exe.config
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\bin\Debug\EsqLabsSln.exe
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\bin\Debug\EsqLabsSln.pdb
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln.csprojAssemblyReference.cache
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\Views\MainWindow.g.cs
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\App.g.cs
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln_MarkupCompile.cache
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln_MarkupCompile.lref
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\Views\MainWindow.baml
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln.g.resources
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln.Properties.Resources.resources
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln.csproj.GenerateResource.cache
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln.csproj.CoreCompileInputs.cache
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln.exe
+C:\Users\oussama\source\repos\EsqLabsSln\EsqLabsSln\obj\Debug\EsqLabsSln.pdb

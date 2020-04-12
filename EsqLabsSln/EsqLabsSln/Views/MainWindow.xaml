@@ -1,0 +1,50 @@
+﻿<Window x:Class="EsqLabsSln.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EsqLabsSln"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="462" Width="495">
+    <Grid Margin="0,0,10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="532*"/>
+        </Grid.ColumnDefinitions>
+        <Grid HorizontalAlignment="Left" Height="414" VerticalAlignment="Center" Margin="10,0,0,0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="85*"/>
+                <ColumnDefinition Width="63*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="txtPairCriteria" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="296" Margin="0,39,0,0" Grid.ColumnSpan="2"/>
+            <ListBox x:Name="lstPairs"  Margin="0,95,0,0" ItemsSource="{Binding PairView}" Grid.ColumnSpan="2" SelectionMode="Multiple" >
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding FullDisplay}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Label x:Name="lblPair" Content="Name/Value Pair" HorizontalAlignment="Left" Margin="0,15,0,0" VerticalAlignment="Top" Height="24" Width="123"/>
+            <Label x:Name="lblPairList" Content="Name/Value Pair List" HorizontalAlignment="Left" Margin="0,69,0,0" VerticalAlignment="Top" Height="26" Width="123"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="229" VerticalAlignment="Center" Margin="358,0,0,0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnAddPair" Content="Add" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="2.12,0.227" Height="23" Width="88" Click="btnAddPair_Click" Grid.Column="1"/>
+            <Button x:Name="btnFilterPairs" Content="Filter" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.12,0.227" Height="22" Width="88" Click="btnFilterPairs_Click" Grid.Column="1"/>
+            <Button x:Name="btnClearFilterPair" Content="Clear Filter" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.12,0.227" Height="24" Width="88" Click="btnClearFilterPair_Click" Grid.Column="1"/>
+            <Button x:Name="btnSortByName" Content="Sort By Name" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.12,0.227" Height="23" Width="88" Click="btnSortByName_Click" Grid.Column="1"/>
+            <Button x:Name="btnSortByValue" Content="Sort By Value" HorizontalAlignment="Center" Margin="0,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.12,0.227" Height="23" Width="88" Click="btnSortByValue_Click" Grid.Column="1"/>
+            <Button x:Name="btnDeletePair" Content="Delete" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.12,0.227" Height="23" Width="88" Click="btnDeletePair_Click" Grid.Column="1"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
